@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+</head>
+
+<body>
+
+    <div class="main">
+        <nav>
+
+            <span><img class="images" src="assets/img/logo.svg" alt=""></span>
+            <div>
+                <button>Sign Up</button>
+            </div>
+        </nav>
+
+        <div class="box"></div>
+        <div class="info">
+            <span>Unlimited movies, <br> TV shows, and more</span>
+            <span>Starts at USD 2.99. Cancel anytime.</span>
+            <span> Ready to watch? Enter your email to create or restart your membership.</span>
+            <div class="inbtn">
+                <input type="text" placeholder="Email address">
+                <button class="emailbtn">Get Started <i class="bi bi-arrow-right"></i></button>
+            </div>
+        </div>
+
+
+        
+   
+
+    </div>
+
+
+<div class="movies-slid con">
+<h2>Trending Now</h2>
+<div class="flims">
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+        
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABcBQAzZgCcAJyLKGf0x3EjJHKr1h1oCRUQDfVspaHXampP-RjiOkIRlWBz7ViFOvUI1EdPSRcxoOPmB7paPLi52W4OmQZJ4NDMQ.webp" alt="">
+          <span>1</span>
+        </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABQwTZFVMS6R9MUwtYiTTewU_xPFk9kg54x-t5ul8QbVVrQHjipfQ6iH3JcHdqsAzqY4_5_EYPSnBI8_8mA_xnBXCcyxgK4-q7sucCcyHP2hJj6g1chWtdY8I7VrmfyF9NnoC.webp" alt="">
+            <span>2</span>
+        </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABTzDarhHiTe45vTTA-rNtjxu_Xn45FJU4xWxuDXXM9I_H68bIGU6RRPlotDS78FSr-hrcK03BdA2NSon2iFgas57khOAkzpTNC-Rg9GW5hVfTWo1wtvR8WGnCRwXB9spRkEd.webp" alt="">
+            <span>3</span>
+        </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABUiKNXIYjkmCmVedWUxralkvxaJAvqtsiIxM-jkmtG4Bgpu2XYlDGkqwmqUjujkKNLwjuiImN5xHgYQvYE5sgAtW2voNprG98TkAh737RgL5kQZrGbIhuwp_Tn_aJi7PzSFE.webp" alt="">
+            <span>4</span>
+        </div>
+
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABTzDarhHiTe45vTTA-rNtjxu_Xn45FJU4xWxuDXXM9I_H68bIGU6RRPlotDS78FSr-hrcK03BdA2NSon2iFgas57khOAkzpTNC-Rg9GW5hVfTWo1wtvR8WGnCRwXB9spRkEd.webp" alt="">
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/img/AAAABQwTZFVMS6R9MUwtYiTTewU_xPFk9kg54x-t5ul8QbVVrQHjipfQ6iH3JcHdqsAzqY4_5_EYPSnBI8_8mA_xnBXCcyxgK4-q7sucCcyHP2hJj6g1chWtdY8I7VrmfyF9NnoC.webp" alt="">
+          </div>
+      
+
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    
+</div>
+</div>
+
+<div class="join con">
+    <h2>More Reasons to Join</h2>
+    <div class="boxes">
+        <div class="sqr a">
+            <h3>Enjoy on your TV</h3>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+
+        <div class="sqr b">
+            <h3>Download your shows to watch offline</h3>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+
+        <div class="sqr c">
+            <h3>EWatch everywhere</h3>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+
+        <div class="sqr d">
+            <h3>Create profiles for kids</h3>
+            <p>Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.</p>
+        </div>
+        
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 5,
+      spaceBetween: 50,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
